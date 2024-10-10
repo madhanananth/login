@@ -10,7 +10,7 @@ function table() {
 
         while ( value >= count) {
             var multi = count*12
-            resultElement.innerHTML +=  "12 X"+ count +  "=" + multi +"<br>";
+            resultElement.innerHTML +=   count +  " X 12 =" + multi +"<br>";
             count = count + 1;
         }
     
